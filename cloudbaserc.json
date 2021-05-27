@@ -1,20 +1,20 @@
 {
-    "envId": "hexo-blog-4gdyy5he75841acd",
-    "version": "2.0",
-    "$schema": "https://framework-1258016615.tcloudbaseapp.com/schema/latest.json",
-    "functionRoot": "./functions",
-    "functions": [],
-    "region": "ap-guangzhou",
-    "framework": {
-        "name": "y",
-        "plugins": {
-            "hexo": {
-                "use": "@cloudbase/framework-plugin-website",
-                "inputs": {
-                    "buildCommand": "y",
-                    "outputPath": "./public"
-                }
-            }
+  "envId": "hexo-blog-4gdyy5he75841acd",
+  "version": "2.0",
+  "$schema": "https://framework-1258016615.tcloudbaseapp.com/schema/latest.json",
+  "functionRoot": "./functions",
+  "functions": [],
+  "region": "ap-guangzhou",
+  "framework": {
+    "name": "y",
+    "plugins": {
+      "hexo": {
+        "use": "@cloudbase/framework-plugin-website",
+        "inputs": {
+          "buildCommand": "npx hexo generate",
+          "outputPath": "./public"
         }
+      }
     }
+  }
 }
